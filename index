@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wenda Fang</title>
+  <style>
+    body{
+      margin:0;
+      background:#f6efe6;
+      color:#111;
+      font: 22px/1.6 Georgia, "Times New Roman", Times, serif;
+    }
+    main{ padding: 28px 36px; max-width: 1100px; }
+    h1{ margin:0 0 14px; font-size: 34px; font-weight: 700; }
+    a{ color:#551A8B; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>About me</h1>
+
+<p>
+  I am a PhD student at RIMS, Kyoto University, advised by Professor Tomoyuki Arakawa and co-advised by Professor Takahiro Shiota.
+  I also work with Professor Noriaki Ikeda.<br>
+  I am interested in vertex algebras and (derived) Poisson/symplectic geometry, with applications to integrable systems.
+</p>
+
+    <!-- 可选：放一行链接（不想放就删掉） -->
+    <p>
+      <a href="https://github.com/Wenda-Fang">GitHub</a>
+      <!-- · <a href="...">arXiv</a> · <a href="...">Google Scholar</a> -->
+    </p>
+  </main>
+</body>
+</html>
