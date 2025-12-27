@@ -7,61 +7,47 @@
   <style>
     body{
       margin:0;
-      background:#f6efe6;
-      color:#111;
-      font: 17px/1.6 Georgia, "Times New Roman", Times, serif; /* 小：正文 */
+      background:#fff;
+      color:#000;
+      font: 18px/1.6 Georgia, "Times New Roman", Times, serif;
     }
-    main{
-      padding: 44px 56px;
-      max-width: 980px;
-    }
+    main{ padding: 28px 36px; max-width: 980px; }
 
-    /* 只让名字大 */
+    /* 大标题：大，但别离谱 */
     h1{
-      margin:0 0 18px;
-      font-size: 64px;        /* 比你原来 72 小一点 */
-      line-height: 1.03;
+      margin:0 0 10px;
+      font-size: 64px;
+      line-height: 1.05;
       font-weight: 700;
-      letter-spacing: 0.3px;
-    }
-    .cn{
-      font-size: 0.55em;      /* 中文名小一号 */
-      font-weight: 600;
-      margin-left: 10px;
-      font-family: "Noto Serif SC","Songti SC","STSong","SimSun",serif;
+      letter-spacing: 0.2px;
     }
 
-    /* 下面全部小：像 Damien 那样 */
+    /* 小信息块：明显比正文更“信息化” */
     .meta{
-      margin: 0 0 14px;
-      font-size: 18px;
+      margin: 0 0 10px;
+      font-size: 22px;
       font-weight: 600;
-      line-height: 1.5;
     }
+
     .contact{
       margin: 0 0 18px;
       font-size: 18px;
     }
     .contact em{ font-style: italic; font-weight: 600; }
 
-    .nav{
-      margin: 0 0 30px;
-      font-size: 18px;
-    }
+    /* 链接也全黑，禁止变紫 */
+    a, a:visited { color:#000; text-decoration: underline; }
 
     h2{
-      margin: 30px 0 10px;
-      font-size: 26px;  /* 比你原来 34 小 */
+      margin: 26px 0 10px;
+      font-size: 28px;
       font-weight: 700;
     }
-
-    p{ margin: 0 0 14px; }
-    a{ color:#551A8B; text-decoration: underline; }
   </style>
 </head>
 <body>
   <main>
-    <h1>Wenda FANG <span class="cn">方闻达</span></h1>
+    <h1>Wenda FANG 方闻达</h1>
 
     <p class="meta">
       PhD student<br>
@@ -73,15 +59,13 @@
       <em>Email address:</em> wenda@kurims.kyoto-u.ac.jp
     </p>
 
-    <p class="nav">
-      <a href="/bio/">Bio</a>
-    </p>
+    <!-- 只留 Bio，不要 GitHub -->
+    <p><a href="/bio/">Bio</a></p>
 
     <h2>About me</h2>
-
     <p>
       I am a PhD student at RIMS, Kyoto University, advised by Professor Tomoyuki Arakawa and co-advised by Professor Takahiro Shiota.
-      I also work with Professor Noriaki Ikeda.<br>
+      I also work with Professor Noriaki Ikeda.
       I am interested in vertex algebras and (derived) Poisson/symplectic geometry, with applications to integrable systems.
     </p>
   </main>
