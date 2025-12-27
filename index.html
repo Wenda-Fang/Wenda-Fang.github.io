@@ -12,26 +12,67 @@
       font: 22px/1.6 Georgia, "Times New Roman", Times, serif;
     }
     main{ padding: 28px 36px; max-width: 1100px; }
-    h1{ margin:0 0 14px; font-size: 34px; font-weight: 700; }
+
+    /* 大标题（像你截图那样） */
+    h1{
+      margin:0 0 10px;
+      font-size: 72px;
+      line-height: 1.05;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    /* About me 用 h2 */
+    h2{
+      margin: 26px 0 10px;
+      font-size: 34px;
+      font-weight: 700;
+    }
+
     a{ color:#551A8B; text-decoration: underline; }
+
+    .meta{
+      margin: 0 0 14px;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .contact{
+      margin: 0 0 22px;
+      font-size: 22px;
+    }
+    .contact em{ font-style: italic; font-weight: 600; }
   </style>
 </head>
 <body>
   <main>
-    <h1>About me</h1>
+    <!-- 顶部信息块（仿你截图） -->
+    <h1>Wenda FANG</h1>
 
-<p>
-  I am a PhD student at RIMS, Kyoto University, advised by Professor Tomoyuki Arakawa and co-advised by Professor Takahiro Shiota.
-  I also work with Professor Noriaki Ikeda.<br>
-  I am interested in vertex algebras and (derived) Poisson/symplectic geometry, with applications to integrable systems.
-</p>
+    <p class="meta">
+      PhD student<br>
+      RIMS, Kyoto University<br>
+      Kyoto, Japan
+    </p>
 
-<p>
-  <a href="/bio/">Bio</a> ·
-  <a href="https://github.com/Wenda-Fang">GitHub</a>
-  <!-- · <a href="...">arXiv</a> · <a href="...">Google Scholar</a> -->
-</p>
+    <p class="contact">
+      <em>Email address:</em> yourname (at) domain<br>
+      <em>Office:</em> (optional)
+    </p>
 
+    <p>
+      <a href="/bio/">Bio</a> ·
+      <a href="https://github.com/Wenda-Fang">GitHub</a>
+      <!-- · <a href="...">arXiv</a> · <a href="...">Google Scholar</a> -->
+    </p>
+
+    <h2>About me</h2>
+
+    <p>
+      I am a PhD student at RIMS, Kyoto University, advised by Professor Tomoyuki Arakawa and co-advised by Professor Takahiro Shiota.
+      I also work with Professor Noriaki Ikeda.<br>
+      I am interested in vertex algebras and (derived) Poisson/symplectic geometry, with applications to integrable systems.
+    </p>
   </main>
 </body>
 </html>
