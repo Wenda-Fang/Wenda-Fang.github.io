@@ -9,45 +9,54 @@
       margin:0;
       background:#f6efe6;
       color:#111;
-      font: 18px/1.6 Georgia, "Times New Roman", Times, serif;
+      font: 17px/1.6 Georgia, "Times New Roman", Times, serif; /* 小：正文 */
     }
-    main{ padding: 36px 44px; max-width: 980px; }
+    main{
+      padding: 44px 56px;
+      max-width: 980px;
+    }
 
+    /* 只让名字大 */
     h1{
-      margin:0 0 14px;
-      font-size: 64px;
-      line-height: 1.05;
+      margin:0 0 18px;
+      font-size: 64px;        /* 比你原来 72 小一点 */
+      line-height: 1.03;
       font-weight: 700;
       letter-spacing: 0.3px;
     }
     .cn{
-      font-size: 0.55em;
+      font-size: 0.55em;      /* 中文名小一号 */
       font-weight: 600;
       margin-left: 10px;
       font-family: "Noto Serif SC","Songti SC","STSong","SimSun",serif;
     }
 
+    /* 下面全部小：像 Damien 那样 */
+    .meta{
+      margin: 0 0 14px;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+    .contact{
+      margin: 0 0 18px;
+      font-size: 18px;
+    }
+    .contact em{ font-style: italic; font-weight: 600; }
+
+    .nav{
+      margin: 0 0 30px;
+      font-size: 18px;
+    }
+
     h2{
-      margin: 28px 0 10px;
-      font-size: 28px;
+      margin: 30px 0 10px;
+      font-size: 26px;  /* 比你原来 34 小 */
       font-weight: 700;
     }
 
     p{ margin: 0 0 14px; }
     a{ color:#551A8B; text-decoration: underline; }
-
-    .meta{
-      margin: 0 0 14px;
-      font-size: 18px;
-      font-weight: 600;
-      line-height: 1.45;
-    }
-    .contact{
-      margin: 0 0 16px;
-      font-size: 18px;
-    }
-    .contact em{ font-style: italic; font-weight: 600; }
-    .nav{ margin: 0 0 26px; font-size: 18px; }
   </style>
 </head>
 <body>
