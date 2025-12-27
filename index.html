@@ -5,49 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Wenda Fang</title>
   <style>
+    * { box-sizing: border-box; }
     body{
       margin:0;
       background:#fff;
       color:#000;
-      font: 18px/1.6 Georgia, "Times New Roman", Times, serif;
+      font: 17px/1.65 Georgia, "Times New Roman", Times, serif;
     }
-    main{ padding: 28px 36px; max-width: 980px; }
-
-    /* 大标题：大，但别离谱 */
+    main{
+      padding: 26px 34px;
+      max-width: 920px;
+    }
     h1{
-      margin:0 0 10px;
-      font-size: 64px;
+      margin:0 0 8px;
+      font-size: 56px;      /* 更小一点 */
       line-height: 1.05;
       font-weight: 700;
       letter-spacing: 0.2px;
     }
-
-    /* 小信息块：明显比正文更“信息化” */
+    h1 .cn{
+      font-size: 0.55em;    /* 中文名更小，更接近你截图那种感觉 */
+      font-weight: 600;
+      margin-left: 14px;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+    p{ margin: 0 0 12px; }
     .meta{
       margin: 0 0 10px;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 600;
     }
-
     .contact{
-      margin: 0 0 18px;
-      font-size: 18px;
+      margin: 0 0 16px;
+      font-size: 17px;
     }
     .contact em{ font-style: italic; font-weight: 600; }
-
-    /* 链接也全黑，禁止变紫 */
-    a, a:visited { color:#000; text-decoration: underline; }
-
+    a, a:visited, a:hover, a:active{
+      color:#000;
+      text-decoration: underline;
+    }
     h2{
-      margin: 26px 0 10px;
-      font-size: 28px;
+      margin: 24px 0 10px;
+      font-size: 26px;
       font-weight: 700;
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>Wenda FANG 方闻达</h1>
+    <h1>Wenda FANG <span class="cn">方闻达</span></h1>
 
     <p class="meta">
       PhD student<br>
@@ -59,15 +66,19 @@
       <em>Email address:</em> wenda@kurims.kyoto-u.ac.jp
     </p>
 
-    <!-- 只留 Bio，不要 GitHub -->
     <p><a href="/bio/">Bio</a></p>
 
     <h2>About me</h2>
     <p>
       I am a PhD student at RIMS, Kyoto University, advised by Professor Tomoyuki Arakawa and co-advised by Professor Takahiro Shiota.
       I also work with Professor Noriaki Ikeda.
+    </p>
+    <p>
       I am interested in vertex algebras and (derived) Poisson/symplectic geometry, with applications to integrable systems.
     </p>
+
+    <!-- debug：用来确认你看到的是不是最新部署（确认后可删） -->
+    <!-- version: 2025-12-27 -->
   </main>
 </body>
 </html>
